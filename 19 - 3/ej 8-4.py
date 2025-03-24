@@ -27,3 +27,16 @@ print(f"Hola {lista[4]}. Podes mañana venir a comer a casa?")
 print(f"Hola {lista[5]}. Veni mañana a comer a casa.")
 print(f"Hola {lista[6]}. Te copas mañana a casa?")
 
+print("Uh! Al final solo puedo invitar a 2 personas a casa")
+lista.pop(0)
+lista.pop(1)
+lista.pop(2)
+lista.pop(3)
+lista.pop()
+print(f"Hola {lista[0]}. Te invito mañana para venir a comer a casa. Avisame!")
+print(f"Hola {lista[1]}. Te invito mañana para venir a comer a casa. Llamame!")
+del lista[1]
+del lista [0]
+print(lista)
+
+
