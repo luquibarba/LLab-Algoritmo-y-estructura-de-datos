@@ -1,6 +1,6 @@
 usuarios_actuales = ["shadow", "papupues", "mager", "mateoHuracan2008", "tito"]
 usuarios_nuevos = ["Juligamer", "fabrikgamer", "sSlofer", "maGer", "tito"]
-
+a = 0
 for usuarios in usuarios_actuales:
     for usuarios_nuevo in usuarios_nuevos:
         if usuarios.lower() in usuarios_nuevo.lower():
