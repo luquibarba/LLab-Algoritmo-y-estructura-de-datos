@@ -3,7 +3,7 @@ rios = {
     "Iguazu": "Paraguay",
     "Amazonas": "Brasil"
 }
-for rio in rios.values():
-    print ("El rio Nilo pasa por",rio)
+for rio,pais in rios.items():
+    print (f"El {rio} pasa por {pais}")
 
 
